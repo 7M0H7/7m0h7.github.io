@@ -1,0 +1,52 @@
+body {
+    background-color: #0A5C36;
+}
+
+.bg-nav {
+    background-color: #0F5132;
+}
+
+.navbar-brand {
+    color: whitesmoke;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: #1D2E28;
+}
+
+.bgc {
+    color: whitesmoke;
+    background-color: #14452F;
+}
+
+@media (max-height: 896px) and (min-height: 658px){
+    .c-item {
+        height: 480px;
+    }
+    .c-img {
+        height: 50%;
+    }
+}
+
+@media (max-height: 659px) and (min-height: 542px){
+    .c-item {
+        height: 360px;
+    }
+    .c-img {
+        height: 50%;
+    }
+}
+
+@media (max-height: 541px){
+    .c-item {
+        height: 240px;
+    }
+    .c-img {
+        height: 50%;
+    }
+}

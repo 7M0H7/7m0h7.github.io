@@ -1,0 +1,93 @@
+body {
+    background-color: #0A5C36;
+}
+
+.bg-nav {
+    background-color: #0F5132;
+}
+
+.navbar-brand {
+    color: whitesmoke;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.bgc1 {
+    background-color: #14452F;
+    color: whitesmoke;
+}
+
+.bgc2 {
+    background-color: #18392B;
+    color: whitesmoke;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: #1D2E28;
+}
+
+@media(max-width: 767px) and (min-width: 477px){
+    .bgc2 {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 476px) and (min-width: 286px){
+    .bgc2 {
+        margin-bottom: 96px;
+    }
+}
+
+@media (max-width: 285px){
+    .bgc2 {
+        margin-bottom: 96px;
+    }
+}
+
+@media (max-height: 896px) and (min-height: 659px){
+    .c-item1{
+        height: 480px;
+    }
+    .c-img1{
+        height: 50%;
+    }
+    .c-item2{
+        height: 480px;
+    }
+    .c-img2{
+        height: 50%;
+    }
+}
+
+@media (max-height: 658px) and (min-height: 549px){
+    .c-item1{
+        height: 360px;
+    }
+    .c-img1{
+        height: 50%;
+    }
+    .c-item2{
+        height: 360px;
+    }
+    .c-img2{
+        height: 50%;
+    } 
+}
+
+@media (max-height: 548px){
+    .c-item1{
+        height: 240px;
+    }
+    .c-img1{
+        height: 50%;
+    }
+    .c-item2{
+        height: 240px;
+    }
+    .c-img2{
+        height: 50%;
+    } 
+}

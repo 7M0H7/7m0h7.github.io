@@ -1,0 +1,64 @@
+body {
+    background-color: #0A5C36;
+}
+
+.bg-nav {
+    background-color: #0F5132;
+}
+
+.navbar-brand {
+    color: whitesmoke;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.bgf {
+    background-color: #1D2E28;
+}
+
+.text {
+    color: whitesmoke;
+}
+
+.c-item {
+    height: 720px;
+}
+
+.c-img {
+    height: 100%;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: #1D2E28;
+}
+
+@media (max-height: 896px) and (min-height: 641px){
+    .c-item {
+        height: 480px;
+    }
+}
+
+@media (max-height: 640px) and (min-height: 497px){
+    .c-item {
+        height: 360px;
+    }
+}
+
+@media (max-height: 496px) and (min-height: 369px){
+    .c-item {
+        height: 240px;
+    }
+}
+
+@media(max-height: 368px){
+    .c-item {
+        height: 144px;
+    }
+}
